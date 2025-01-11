@@ -1,3 +1,2 @@
 # MLH challenges
-## Challenge 1
-### Hello World
+## Challenge 1 - Hello World!

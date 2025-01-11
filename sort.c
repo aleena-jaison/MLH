@@ -4,9 +4,9 @@ void sort(int a[], int n) {
   for (i=0;i<n-1;i++) {
     for (j=i+1;j<n;j++) {
       if (a[i]>a[j]) {
-        temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp; } } } }
+        temp=a[i];
+        a[i]=a[j];
+        a[j]=temp; } } } }
 int main() {
   printf("Enter the size of array: ");
   scanf("%d",&n);

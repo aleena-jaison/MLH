@@ -1,3 +1,2 @@
-# MLH challenges
-## Challenge 1 - Hello World!
-## Challenge 2 - Sorting 
+Check out my peda paad for completing those not-too-easyy challenges for MLH's Beginner's Week 
+

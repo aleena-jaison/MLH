@@ -1,6 +1,6 @@
 Check out my 'peda paad' for completing those not-too-easyy challenges for MLH's Beginner's Week 
 
-##RANDOM NUMBER GENERATOR
+## RANDOM NUMBER GENERATOR
 ### How it works
 1. Linear Congruential Generator: The random number generator is based on the Linear Congruential Generator algorithm, a simple and well-known method for generating pseudo-random numbers.
 2. Range Calculation: The my_random_range function calculates the random number by adjusting the result from my_random() within the specified range [min, max].

@@ -1,3 +1,4 @@
+//Prints 10 random numbers
 #include <stdio.h>
 static unsigned long x0 = 1;  // Initial seed
 

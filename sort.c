@@ -1,3 +1,4 @@
+// bubble sort program
 #include <stdio.h>
 int n,a[10],i,j,temp;
 void sort(int a[], int n) {

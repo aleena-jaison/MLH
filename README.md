@@ -1,7 +1,7 @@
 Check out my 'peda paad' for completing those not-too-easyy challenges for MLH's Beginner's Week 
 
 ## 1. RANDOM NUMBER GENERATOR
-File- random.c
+#### Filename- random.c
 This C program implements a custom random number generator using a Linear Congruential Generator (LCG) algorithm. The program generates and prints 10 random numbers within a specified range (0 to 100).
 ### How it works 
 1.  Linear Congruential Generator: The random number generator is based on the Linear Congruential Generator algorithm, a simple and well-known method for generating pseudo-random numbers.
@@ -11,6 +11,7 @@ This C program implements a custom random number generator using a Linear Congru
 
 
 ## 2. HACK WITH GEMINI- Personalized Story Generator
+#### Filename- story_generator.py
 This project is a simple web application that uses the Gemini API to generate personalized short stories based on user-provided prompts. Users can specify a character, setting, and goal, and the application will create a unique story based on these inputs.
 ### Features
 *   Generates creative short stories based on user input.
@@ -25,7 +26,7 @@ This project is a simple web application that uses the Gemini API to generate pe
     ```
     GEMINI_API_KEY=YOUR_ACTUAL_API_KEY
     ```
-5.  Run the application (story_generator.py). 
+5.  Run the application. 
 ### How it works
 1.  Enter a character, setting, and goal in the input fields.
 2.  Click the "Generate Story" button.
@@ -33,7 +34,7 @@ This project is a simple web application that uses the Gemini API to generate pe
 
 
 ## 3. A USELESS HACK- Infinite Loading Simulator
-File- useless.py
+#### Filename- useless.py
 This is a basic Infinite Loading Simulator built using Python's tkinter library. The application simulates a loading screen with a progress bar and a "loading" message that updates with ellipses (.) to indicate ongoing progress.
 ### Features
 *  An indeterminate progress bar that simulates loading.
@@ -42,6 +43,7 @@ This is a basic Infinite Loading Simulator built using Python's tkinter library.
 
 
 ## 4. USING LIBRARIES- Interactive Drawing Canvas
+#### Filename- canvas.html
 This is an interactive drawing application built using p5.js, where users can draw on a canvas with different colors and brush sizes. The app allows for simple interactions through key presses and mouse movements, making it an engaging tool for creative exploration.
 ### Features
 *  Color Selection: Change the drawing color using the keyboard:
@@ -54,7 +56,7 @@ This is an interactive drawing application built using p5.js, where users can dr
 *  Clear Canvas: Press C or c to clear the canvas and start drawing from scratch.
 ### Setup
 1.  Clone or download the repository to your local machine.
-2.  Open the HTML file (canvas.html) in your browser to start using the app.
+2.  Open the HTML file in your browser to start using the app.
 ### Technologies Used- html, p5.js, js
 ### How it Works
 1.  The canvas is created with dimensions of 900x600 pixels and a default background color of light gray.
@@ -63,7 +65,7 @@ This is an interactive drawing application built using p5.js, where users can dr
 
 
 ## 5. USE AN API- Weather Application
-File- weather.py
+#### Filename- weather.py
 The Weather App fetches weather data from the OpenWeather API for a given city and displays it to the user. The app provides the current weather description and the temperature in Celsius. It handles API requests, error checking, and provides a user-friendly output.
 ### Features
 *  Fetch Weather Data: Get the current weather information for any city.
@@ -75,17 +77,18 @@ The Weather App fetches weather data from the OpenWeather API for a given city a
 3.  Obtain a API key from OpenWeather.
 4.  Add API key to "your_api_key_here" 
 5.  Run the application.
+### Technologies Used- Python
 ### How it works
 When prompted, enter the name of the city for which you want to check the weather. The app will return weather description (e.g., clear sky, cloudy, etc.) and temperature in Celsius.
 
 
 ## 6. HELLO WORLD PROGRAM
-File- hello.py
+#### Filename- hello.py
 This is a simple Python program that prints "Hello, World!" to the console. 
 
 
 ## 7. ROCK PAPER SCISSORS GAME
-File- rockpaperscissors.py
+#### Filename- rockpaperscissors.py
 This is a simple Rock Paper Scissors game implemented in Python. The game allows the user to play against the computer. The player selects one of the three choices—rock, paper, or scissors—and the computer makes a random selection. The game is played for a specified number of rounds, and the final scores are displayed at the end.
 ### Features
 *  Player vs. Computer: The player competes against the computer.
@@ -105,6 +108,7 @@ This is a simple Rock Paper Scissors game implemented in Python. The game allows
 
 
 ## 8. SORTING PROGRAM
+#### Filename- sort.c
 This C program implements the Bubble Sort algorithm, which is a simple comparison-based sorting algorithm. It sorts an array of integers in ascending order. The program first takes an array from the user, prints the array before and after sorting, and sorts it using the Bubble Sort technique.
 ### Features
 *  Bubble Sort: The program uses the Bubble Sort algorithm to arrange the elements of the array in ascending order.

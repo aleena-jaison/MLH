@@ -17,3 +17,29 @@ Random number: 79
 Random number: 45
 Random number: 100
 Random number: 61
+
+
+## Hack with Gemini- Personalized Story Generator
+This project is a simple web application that uses the Gemini API to generate personalized short stories based on user-provided prompts. Users can specify a character, setting, and goal, and the application will create a unique story based on these inputs.
+### Features
+*   Generates creative short stories based on user input.
+*   Simple and intuitive user interface.
+*   Demonstrates the power of Gemini's natural language generation capabilities.
+### Technologies Used
+*   Python
+*   Gemini API
+### Setup and Installation
+1. Clone the repository.
+2. Create a .env file in the same directory as app.py and put your API key in it as GEMINI_API_KEY=YOUR_ACTUAL_API_KEY.
+3. Install the requirements: pip install -r requirements.txt
+3. Run the app: python app.py
+### Obtain a Gemini API key
+ *   Go to Google AI Studio.
+ *   Sign in with your Google account.
+ *   Find the Gemini API section.
+ *   Get your API key.
+### Usage
+1.  Enter a character, setting, and goal in the input fields.
+2.  Click the "Generate Story" button.
+3.  The generated story will be displayed on the page.
+

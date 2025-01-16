@@ -1,3 +1,4 @@
+/* drawing canvas */
 let currentColor = 0;
 let brushSize = 2;
 

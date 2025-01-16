@@ -29,10 +29,14 @@ This project is a simple web application that uses the Gemini API to generate pe
 *   Python
 *   Gemini API
 ### Setup and Installation
-1. Clone the repository.
-2. Create a .env file in the same directory as app.py and put your API key in it as GEMINI_API_KEY=YOUR_ACTUAL_API_KEY.
-3. Install the requirements: pip install -r requirements.txt
-3. Run the app: python app.py
+1. Clone the repo.
+2. Install dependencies- pip install requests python-dotenv
+3. Obtain a Gemini API key.
+4. Set up environment variables- Create a `.env` file in the same directory as the Python script. Add your Gemini API key to the `.env` file:
+    ```
+    GEMINI_API_KEY=YOUR_ACTUAL_API_KEY
+    ```
+5. Run the application.
 ### Obtain a Gemini API key
  *   Go to Google AI Studio.
  *   Sign in with your Google account.

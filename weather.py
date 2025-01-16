@@ -1,9 +1,10 @@
+# Weather Application
 import requests
 import os
 from typing import Dict, Any
 
 # Constants
-API_KEY = os.getenv('OPENWEATHER_API_KEY', '2a55e59088fc81ebe85933dedb1c141e')
+API_KEY = os.getenv('OPENWEATHER_API_KEY', 'your_api_key_here')
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 UNITS = 'metric'  # Use metric units for Celsius
 
